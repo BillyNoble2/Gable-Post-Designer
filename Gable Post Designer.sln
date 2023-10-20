@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gable Post Designer", "Gable Post Designer\Gable Post Designer.csproj", "{71541321-1D52-4505-92A1-39565BD45893}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Member Properties", "Member Properties", "{B4550853-4D6A-4203-A39C-A5FDDB44126D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
