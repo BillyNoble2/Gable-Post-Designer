@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Gable_Post_Designer
 {
-    public partial class Form1 : Form
+    public partial class UserInput : Form
     {
-        public Form1()
+        public UserInput()
         {
             InitializeComponent();
         }
+
+        private void calculate_button_Click(object sender, EventArgs e)
+        {
+            CalculationHelper.GetPlanLoadArea(double.Parse(frameCentres_textBox.Text), double.Parse(postCentres_textBox.Text));
+        }
+
     }
 }
