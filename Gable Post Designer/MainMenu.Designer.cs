@@ -1,6 +1,6 @@
 ﻿namespace Gable_Post_Designer
 {
-    partial class Form1
+    partial class MainMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -203,11 +203,11 @@
             this.comboBox1.Size = new System.Drawing.Size(166, 21);
             this.comboBox1.TabIndex = 18;
             // 
-            // Form1
+            // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 179);
+            this.ClientSize = new System.Drawing.Size(488, 235);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.trialSection_label);
             this.Controls.Add(this.calculate_button);
@@ -227,8 +227,9 @@
             this.Controls.Add(this.postCentres_textBox);
             this.Controls.Add(this.postHeight_label);
             this.Controls.Add(this.postHeight_textBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainMenu";
+            this.Text = "Gable Post Designer";
+            this.Load += new System.EventHandler(this.YourForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
